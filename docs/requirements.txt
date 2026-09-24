@@ -1,0 +1,6 @@
+# Documentation toolchain for docs/ (Sphinx). Install with:
+#   python3 -m pip install -r docs/requirements.txt
+sphinx>=8,<10
+sphinx-rtd-theme>=3,<4
+sphinxcontrib-mermaid>=1,<3
+myst-parser>=4,<6

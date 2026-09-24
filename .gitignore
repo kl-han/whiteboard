@@ -93,3 +93,6 @@ scripts/acceptance/evidence/
 
 packages/review/tutorial/pins.json
 packages/review/bin/
+
+# Sphinx build output
+docs/_build/
