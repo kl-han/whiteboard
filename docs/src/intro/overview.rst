@@ -28,8 +28,10 @@ The README names three product pillars:
    * - Semantic diff viewer
      - An AST-aware diff hides noise. Large added functions are summarized,
        and tests and docs are collapsed. WASM plugins can customize it.
-     - External ``@dev.fast/diffr`` binary, ``packages/review/src/server/structural-diff.ts``,
-       ``packages/review-protocol/src/structural-diff.ts``
+     - External Rust ``diffr`` binary (``devdotfast/diffr``, run as a child
+       process), ``packages/review/src/server/structural-diff.ts``,
+       ``packages/review-protocol/src/structural-diff.ts``. See
+       :doc:`../architecture/semantic_diff/index`.
    * - Decision log
      - Agents query and link their own session traces, so readers can see
        which decisions the agent made on its own.

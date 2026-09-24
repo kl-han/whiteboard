@@ -10,4 +10,5 @@ organized, and how it evolved.
    overview
    folder_structure
    project_history
+   architecture_evolution
    feature_timeline

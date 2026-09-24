@@ -8,3 +8,5 @@ Extension points and troubleshooting for contributors who change the system.
 
    extension_points
    troubleshooting
+   open_questions
+   recommendations

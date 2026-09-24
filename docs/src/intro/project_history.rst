@@ -118,8 +118,9 @@ Open questions
 * What the pre-import repository looked like, and when the Code - OSS fork
   was first vendored. ``UPSTREAM`` gives the pin (``8a7abeba``) but no
   date.
-* Whether ``packages/progressive-review`` is still used. It holds only
-  ``tutorial/data.ts``, which predates the rename.
+* ``packages/progressive-review`` *was* the main package until #259
+  renamed it to ``packages/review`` (HISTORY). Only ``tutorial/data.ts``
+  remains, and nothing imports it (see :doc:`architecture_evolution`).
 * The status of the hosted trace store server. Its code is not in this
   repository; only the client and contract are.
 * ``CONTRIBUTING.md`` still links issues at ``devdotfast/review``, while the
