@@ -26,7 +26,7 @@ source_suffix = {".rst": "restructuredtext"}
 
 # docs/ also holds the product's Markdown pages (privacy.md, telemetry.md) and
 # README images. They are linked from these pages, not built by Sphinx.
-exclude_patterns = ["_build", "assets", "*.md", "requirements.txt"]
+exclude_patterns = ["_build", "assets", "tools", "*.md", "requirements.txt"]
 
 extensions: list[str] = []
 

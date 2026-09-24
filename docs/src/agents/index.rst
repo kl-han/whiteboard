@@ -8,4 +8,7 @@ working on this repository.
    :maxdepth: 2
 
    agent_integration_flow
+   mcp_architecture
+   mcp_tools
+   instance_discovery
    suggested_skills

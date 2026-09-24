@@ -24,7 +24,7 @@ a full file listing.
    │   ├── local-vcs/              Git and Jujutsu helpers (published to npm)
    │   ├── json/                   Small JSON value helpers used at decode boundaries
    │   ├── agent-plugins/          Claude, Codex, Cursor, OpenCode, Pi connectors
-   │   └── progressive-review/     Legacy tutorial data (pre-rename name)
+   │   └── progressive-review/     Remnant of the original main package (renamed in #259)
    ├── scripts/                    CLI release, packing, smoke and clean scripts (+ tests)
    ├── tools/oxlint/anti-slop/     Custom oxlint JS plugin rules (vendored from dmmulroy/anti-slop)
    ├── docs/                       privacy.md, telemetry.md, README assets, this Sphinx site

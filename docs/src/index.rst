@@ -11,13 +11,41 @@ Read the sections in order the first time. Later, jump to the page you need.
    the embedded server.
 4. **Architecture** explains the core modules, data flow and design choices.
 5. **Toolkit** covers the tools that shape everyday work.
-6. **Agents** explains how coding agents connect to Whiteboard.
+6. **Agents** explains how coding agents connect to Whiteboard, including
+   the MCP protocol and instance discovery.
 7. **Advanced** covers extension points and troubleshooting.
 
-Each page marks claims in one of two ways. **Confirmed** means that code,
-package scripts, repository documents or Git history show it. **Inferred**
-means that it is a careful reading of names, imports or comments that we did
-not execute.
+Evidence labels
+---------------
+
+Architecture pages label claims with one of these tags wherever a claim
+could be ambiguous:
+
+.. list-table::
+   :header-rows: 1
+   :widths: 18 82
+
+   * - Label
+     - Meaning
+   * - **CONFIRMED**
+     - Seen directly in current code, or observed by running it during
+       verification
+   * - **HISTORY**
+     - Supported by Git commits (hash or PR number given)
+   * - **DOCUMENTED**
+     - Stated in project documentation (README, CONTRIBUTING, UPSTREAM,
+       package READMEs)
+   * - **UPSTREAM**
+     - Inherited from an external project, such as Code - OSS, difftastic
+       or Electron
+   * - **INFERRED**
+     - A conclusion drawn from structure, imports, names or binary contents
+   * - **UNVERIFIED**
+     - The evidence is incomplete. The open question is recorded in
+       :doc:`advanced/open_questions`.
+
+Earlier pages use a shorter form, "Confirmed" or "Inferred", with the same
+meaning.
 
 .. toctree::
    :maxdepth: 2
